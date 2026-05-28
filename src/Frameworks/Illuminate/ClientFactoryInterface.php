@@ -31,5 +31,5 @@ interface ClientFactoryInterface
      *
      * @return ClientInterface
      */
-    public function make(string $connection_name = null, array $options = null): ClientInterface;
+    public function make(?string $connection_name = null, ?array $options = null): ClientInterface;
 }

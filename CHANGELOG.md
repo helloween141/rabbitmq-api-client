@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][keepachangelog] and this project adheres to [Semantic Versioning][semver].
 
+## Unreleased
+
+### Changed
+
+- Minimal `guzzlehttp/guzzle` version now is `7,10`
+- Minimal `phpstan/phpstan` version now is `1.12.27`
+
+### Fixed
+
+- Deprecated implicit marking of parameter as nullable
+
 ## v2.8.0
 
 ### Added

@@ -27,7 +27,7 @@ interface ClientInterface
      *
      * @return bool
      */
-    public function healthcheck(string $node_name = null): bool;
+    public function healthcheck(?string $node_name = null): bool;
 
     /**
      * Get queue info by name (and vhost).

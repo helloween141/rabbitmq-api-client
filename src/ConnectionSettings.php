@@ -44,7 +44,7 @@ class ConnectionSettings implements ConnectionSettingsInterface
                                 string $login = 'guest',
                                 string $password = 'guest',
                                 int $timeout = 5,
-                                string $user_agent = null)
+                                ?string $user_agent = null)
     {
         $this->entry_point = \rtrim($entry_point, ' \\/');
         $this->login       = $login;

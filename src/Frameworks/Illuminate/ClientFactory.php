@@ -56,7 +56,7 @@ class ClientFactory implements ClientFactoryInterface
     /**
      * {@inheritdoc}
      */
-    public function make(string $connection_name = null, array $options = null): ClientInterface
+    public function make(?string $connection_name = null, ?array $options = null): ClientInterface
     {
         $connection_name = $connection_name ?? $this->defaultConnectionName();
 

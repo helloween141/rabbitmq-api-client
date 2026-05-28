@@ -57,7 +57,7 @@ class Client implements ClientInterface
     /**
      * {@inheritdoc}
      */
-    public function healthcheck(string $node_name = null): bool
+    public function healthcheck(?string $node_name = null): bool
     {
         $url = '/api/healthchecks/node' . ($node_name === null
                 ? ''
